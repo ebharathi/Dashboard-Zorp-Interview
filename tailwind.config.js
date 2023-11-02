@@ -13,7 +13,7 @@ module.exports = {
       borderRadius:{
         'custom-border':'12px'
       }
-    },
+        },
   },
   plugins: [],
 }

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="grid grid-cols-6">
        <Navbar className='col-span-1 bg-[#3055b8] h-full py-10 px-5'/>
-       <Container className='col-span-5 border-2 '/>
+       <Container className='col-span-5 border-2 px-16 py-5 '/>
     </div>
   );
 }
