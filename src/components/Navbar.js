@@ -1,5 +1,5 @@
 import NavList from "./NavList";
-
+import NavFooter from "./NavFooter";
 const Navbar=({className=""})=>{
     return (
         <div className={className}>
@@ -9,6 +9,9 @@ const Navbar=({className=""})=>{
            </div>
            <div className="mt-7 text-white">
                  <NavList/>
+           </div>
+           <div className="text-white flex items-end h-70vh">
+               <NavFooter/>
            </div>
         </div>
     )
