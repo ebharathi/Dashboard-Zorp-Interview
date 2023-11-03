@@ -5,7 +5,7 @@ const Items=()=>{
         <div className="hover:shadow-2xl cursor-pointer px-10 py-10 border-2 rounded-lg px-10 py-10">
               <div className="title flex">
                    <CampaignIcon></CampaignIcon>
-                   <h1 className='font-semibold'>Hourly Order Rate High</h1>
+                   <h1 className='font-semibold ml-2 text-[#171e2c]'>Hourly Order Rate High</h1>
               </div>
               <div className='text-[#4f5a6d] py-3'>
                  This is placeholder text. Two sentences <br/>ideally placed here
