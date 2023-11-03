@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.sidenav-transition{
+    animation: from;
+    animation-duration: 1s;
+}
+@keyframes from {
+  0%{
+    height: 0px;
+  }
+  100%{
+    height: 55vh;
+  }
+}
